@@ -24,3 +24,19 @@ This step involves identifying opem ports on the host machine that can lead to a
 
 <img width="1813" height="270" alt="image" src="https://github.com/user-attachments/assets/e12c90e3-56af-44f4-9f37-477d29b5c9a7" />
   
+--------
+
+### Step 4 - Identify services
+This step involves identifying services on the host machine (Target).
+To Acheive this with Nmap, we used the following command: nmap -sV <TargetIPAddress>
+
+<img width="1472" height="300" alt="image" src="https://github.com/user-attachments/assets/361d17f2-effa-41e3-90b6-508fb3dfeb51" />
+
+----------
+
+### Step 5 - Doiscoverind Service Version Vulnerabilities 
+We sellected one of the identified services ans searched for the version's vulnerabilities:Microsoft Windows RPC
+Below are the result and mitigration recommendation
+
+<img width="1058" height="563" alt="image" src="https://github.com/user-attachments/assets/76e8e640-e595-4eb7-9bb5-b93877cfa30f" />
+
