@@ -1,4 +1,4 @@
-# NMAP-scanning-projrct
+# NMAP-scanning-project
 This project is aimed at identifying devices in a network, uncovering open ports, and checking for  Vulnerabilities
 
 ### Step 1
@@ -34,7 +34,7 @@ To Acheive this with Nmap, we used the following command: nmap -sV <TargetIPAddr
 
 ----------
 
-### Step 5 - Doiscoverind Service Version Vulnerabilities 
+### Step 5 - Discovering Service Version Vulnerabilities 
 We sellected one of the identified services ans searched for the version's vulnerabilities:Microsoft Windows RPC
 Below are the result and mitigration recommendation
 
